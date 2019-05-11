@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7067244de4dda23af4ecf2e2ebc845bb",
+    "packages": [
+        {
+            "name": "merephp/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/merephp/framework.git",
+                "reference": "96f48030d6a77915ed882411e737caf5557d86f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/merephp/framework/zipball/96f48030d6a77915ed882411e737caf5557d86f9",
+                "reference": "96f48030d6a77915ed882411e737caf5557d86f9",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mere\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nick Tsai",
+                    "email": "myintaer@gmail.com",
+                    "homepage": "https://github.com/yidas/"
+                }
+            ],
+            "time": "2019-05-11 06:10:14"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "merephp/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

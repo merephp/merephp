@@ -17,6 +17,7 @@
     }
   ],
   "require": {
+    "merephp/framework": "dev-master"
   },
   "autoload": {
     "psr-4": {
