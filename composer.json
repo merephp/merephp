@@ -2,9 +2,9 @@
   "name": "merephp/merephp",
   "description": "",
   "keywords": [],
-  "type": "library",
+  "type": "project",
   "license": "MIT",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "support": {
     "issues": "https://github.com/merephp/framework",
     "source": "https://github.com/merephp/framework"
