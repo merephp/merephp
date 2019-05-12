@@ -1,7 +1,18 @@
 #!/usr/bin/env php
 <?php
 
-include __DIR__ . "/vendor/autoload.php";
+/**
+ * MerePHP CLI Bootstrap
+ */
 
-echo "CLI";
+defined('ROOT_PATH') or define('ROOT_PATH', __DIR__);
+
+require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/vendor/merephp/framework/app.php';
+
+$config = require __DIR__ . '/config/console.php';
+
+$application = new mere\console\Application($config);
+$exitCode = $application->run();
+exit($exitCode);
 
