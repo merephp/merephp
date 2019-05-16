@@ -5,7 +5,7 @@
  * MerePHP CLI Bootstrap
  */
 
-defined('BASE_PATH') or define('ROOT_PATH', __DIR__);
+defined('BASE_PATH') or define('BASE_PATH', __DIR__);
 
 require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/vendor/merephp/framework/app.php';
